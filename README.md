@@ -12,11 +12,9 @@ Installation
 add a config file to your project that has contents similar to:
 
 		module.exports = {
-			API_USERNAME: 'secret',
-			API_PASSWORD: 'secret',
+			API_KEY: 'secret',
 			PRIVATE_KEY:  'secret',
 			SUBDOMAIN:    '[your_account]',
-			ENVIRONMENT:  'sandbox',
 			DEBUG: false
 		};
 

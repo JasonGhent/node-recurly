@@ -1,7 +1,7 @@
 var Recurly = require('../'),
-	config = require('./config-example'),
-	recurly = new Recurly(config),
-	utils = require('../lib/utils');
+		config = require('./config-example'),
+		recurly = new Recurly(config),
+		utils = require('../lib/utils');
 
 // recurly.accounts.list(function(res){
 // 	console.log(res);
